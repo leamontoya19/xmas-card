@@ -27,10 +27,4 @@ window.addEventListener("DOMContentLoaded", function() {
     // Reproducir el audio cuando la página se cargue
     audio.play(); 
 
-    
-    const stopButton = document.getElementById("stop-button");
-    stopButton.addEventListener("click", function() {
-        audio.pause();
-    }); 
-
 });
