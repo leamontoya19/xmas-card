@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    border-sizing: border-box;
+   
 }
 body{
     display: flex;
@@ -39,6 +39,10 @@ body{
     font-weight: bolder;
     font-size: larger;
     font-style: italic;
+}
+#stop-button{
+    color: blue;
+    margin-top: 455px;
 }
 .snow{
     position: fixed;
