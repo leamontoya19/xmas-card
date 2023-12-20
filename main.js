@@ -16,7 +16,7 @@ tl.fromTo(".title", {y:100, opacity:0}, {y:0, opacity:1});
 tl.fromTo(".subtitle",{x:100, opacity:0},{x:0,opacity:1},"<");
 tl.fromTo(".logo-tree",{opacity:0,y:100},{opacity:1,y:0});
 tl.fromTo(".logo-tree",{y:0},{y:-10,repeat:-1, yoyo:true});
-tl.fromTo(".topping",{rotation:"-2deg"},{rotation:"2deg",repeat:-1,yoyo:true},"<")
+//tl.fromTo(".topping",{rotation:"-2deg"},{rotation:"2deg",repeat:-1,yoyo:true},"<")
 
 //audio
 
