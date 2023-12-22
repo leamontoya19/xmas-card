@@ -5,10 +5,17 @@ function createSnow(){
     snow.style.animationDuration = Math.random()+2+3+'s';
     snow.innerText = '❄'
     document.body.appendChild(snow);
+    /*
     const audio = document.getElementById('audio');
-     audio.play();
+    audio.play(); */
 }
-setInterval(createSnow, 1000)
+setInterval(createSnow, 1000);
+
+const audio = document.getElementById("audio");
+document.addEventListener("click", function() {
+    audio.play();
+  });
+
 
 //gsap
 
@@ -21,12 +28,5 @@ tl.fromTo(".logo-tree",{y:0},{y:-10,repeat:-1, yoyo:true});
 //tl.fromTo(".topping",{rotation:"-2deg"},{rotation:"2deg",repeat:-1,yoyo:true},"<")
 
 
-/*
-window.addEventListener("DOMContentLoaded", function() {
-    // Obtener el elemento de audio
-    const audio = document.getElementById("audio");
-    
-    // Reproducir el audio cuando la página se cargue
-    audio.play();
-  });
-  */
+
+  
